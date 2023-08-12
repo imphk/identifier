@@ -1,12 +1,8 @@
 package app.identifier;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.Test;
-/**
- * Example of JUnit 5.0 test for Identifier Program,
- * considering basic functional testing criterion.
- */
+import org.junit.Test;
 public class IdentifierInitialTest {
     @Test
     public void validateIdentifier01() {
